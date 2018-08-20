@@ -87,13 +87,41 @@ def predict(row, coefficients):
 	return yhat
 
 # Estimate linear regression coefficients using stochastic gradient descent
-def coefficients_sgd(train, l_rate, n_epoch, tol=0.00001):
+def linear_regression_coefficients_sgd(train, l_rate, n_epoch, tol=0.00001):
 	coef = [0.0 for i in range(len(train[0]))]
 	for epoch in range(n_epoch):
 		while error > tol:
 			row = random.choice(train)
 			yhat = predict(row, coef)
-			error = math.pow(yhat - row[-1], 2)
+			error = math.pow(yhat - row[-1], 2) 
+			coef[0] = coef[0] - l_rate * error
+			for i in range(len(row)-1):
+				coef[i + 1] = coef[i + 1] - l_rate * error * row[i]
+			# print(l_rate, n_epoch, error)
+	return coef
+
+# Estimate ridge regression coefficients using stochastic gradient descent
+def ridge_regression_coefficients_sgd(train, l_rate, n_epoch, Lambda, tol=0.00001):
+	coef = [0.0 for i in range(len(train[0]))]
+	for epoch in range(n_epoch):
+		while error > tol:
+			row = random.choice(train)
+			yhat = predict(row, coef)
+			error =   math.pow(yhat - row[-1], 2) +  (Lambda * math.pow(row[-1], 2))
+			coef[0] = coef[0] - l_rate * error
+			for i in range(len(row)-1):
+				coef[i + 1] = coef[i + 1] - l_rate * error * row[i]
+			# print(l_rate, n_epoch, error)
+	return coef
+
+# Estimate lasso regression coefficients using stochastic gradient descent
+def lasso_regression_coefficients_sgd(train, l_rate, n_epoch, Lambda, tol=0.00001):
+	coef = [0.0 for i in range(len(train[0]))]
+	for epoch in range(n_epoch):
+		while error > tol:
+			row = random.choice(train)
+			yhat = predict(row, coef)
+			error =   math.pow(yhat - row[-1], 2) +  (Lambda * abs(row[-1]))
 			coef[0] = coef[0] - l_rate * error
 			for i in range(len(row)-1):
 				coef[i + 1] = coef[i + 1] - l_rate * error * row[i]
@@ -103,7 +131,25 @@ def coefficients_sgd(train, l_rate, n_epoch, tol=0.00001):
 # Linear Regression Algorithm With Stochastic Gradient Descent
 def linear_regression_sgd(train, test, l_rate, n_epoch):
 	predictions = list()
-	coef = coefficients_sgd(train, l_rate, n_epoch)
+	coef = linear_regression_coefficients_sgd(train, l_rate, n_epoch)
+	for row in test:
+		yhat = predict(row, coef)
+		predictions.append(yhat)
+	return(predictions)
+
+# Ridge Regression Algorithm With Stochastic Gradient Descent
+def ridge_regression_sgd(train, test, l_rate, n_epoch, Lambda):
+	predictions = list()
+	coef = ridge_regression_coefficients_sgd(train, l_rate, n_epoch, Lambda)
+	for row in test:
+		yhat = predict(row, coef)
+		predictions.append(yhat)
+	return(predictions)
+
+# Ridge Regression Algorithm With Stochastic Gradient Descent
+def lasso_regression_sgd(train, test, l_rate, n_epoch, Lambda):
+	predictions = list()
+	coef = lasso_regression_coefficients_sgd(train, l_rate, n_epoch, Lambda)
 	for row in test:
 		yhat = predict(row, coef)
 		predictions.append(yhat)
@@ -123,6 +169,9 @@ normalize_dataset(dataset, minmax)
 n_folds = 5
 l_rate = 0.01
 n_epoch = 50
-scores = evaluate_algorithm(dataset, linear_regression_sgd, n_folds, l_rate, n_epoch)
-print('Scores: %s' % scores)
-print('Mean RMSE: %.3f' % (sum(scores)/float(len(scores))))
+Lambda = 0.5
+linear_regression_scores = evaluate_algorithm(dataset, linear_regression_sgd, n_folds, l_rate, n_epoch)
+ridge_regression_scores = evaluate_algorithm(dataset, ridge_regression_sgd, n_folds, l_rate, n_epoch, Lambda)
+lasso_regression_scores = evaluate_algorithm(dataset, lasso_regression_sgd, n_folds, l_rate, n_epoch, Lambda)
+print('Scores: %s' % linear_regression_scores)
+print('Mean RMSE: %.3f' % (sum(linear_regression_scores)/float(len(linear_regression_scores))))
