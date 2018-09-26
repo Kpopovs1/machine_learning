@@ -1,0 +1,362 @@
+Entity,Code,Year,height
+Algeria,DZA,1910,168.8
+Algeria,DZA,1920,166.2
+Algeria,DZA,1930,169
+Angola,AGO,1810,160.5
+Angola,AGO,1880,168.8
+Angola,AGO,1890,169.1
+Angola,AGO,1900,168.1
+Angola,AGO,1910,168
+Angola,AGO,1920,165.7
+Angola,AGO,1930,166.7
+Benin,BEN,1810,164.9
+Benin,BEN,1910,168.9
+Benin,BEN,1920,168.1
+Benin,BEN,1930,168.2
+Benin,BEN,1950,169.9
+Benin,BEN,1960,170.7
+Benin,BEN,1970,170.3
+Benin,BEN,1980,169.2
+Botswana,BWA,1910,165.4
+Botswana,BWA,1980,167.1
+Burkina Faso,BFA,1810,166.3
+Burkina Faso,BFA,1820,165.4
+Burkina Faso,BFA,1830,166.7
+Burkina Faso,BFA,1840,162.6
+Burkina Faso,BFA,1870,171.2
+Burkina Faso,BFA,1880,171.5
+Burkina Faso,BFA,1890,167.9
+Burkina Faso,BFA,1900,171.2
+Burkina Faso,BFA,1910,171.1
+Burkina Faso,BFA,1920,172.4
+Burkina Faso,BFA,1930,171
+Burkina Faso,BFA,1940,172.5
+Burkina Faso,BFA,1950,172.2
+Burkina Faso,BFA,1960,172.8
+Burkina Faso,BFA,1970,172.8
+Burkina Faso,BFA,1980,172.8
+Burundi,BDI,1920,166.1
+Burundi,BDI,1930,169.4
+Cameroon,CMR,1810,165.9
+Cameroon,CMR,1860,165.1
+Cameroon,CMR,1870,165.7
+Cameroon,CMR,1880,166.6
+Cameroon,CMR,1890,164.1
+Cameroon,CMR,1900,166.7
+Cameroon,CMR,1910,168.8
+Cameroon,CMR,1920,166.7
+Cameroon,CMR,1930,169.5
+Cameroon,CMR,1950,171.3
+Cameroon,CMR,1960,171.5
+Cameroon,CMR,1970,171.6
+Cameroon,CMR,1980,171
+Cape Verde,CPV,1980,169
+Central African Republic,CAF,1880,167.1
+Central African Republic,CAF,1900,167.3
+Central African Republic,CAF,1910,164.9
+Central African Republic,CAF,1920,163.6
+Central African Republic,CAF,1930,164
+Central African Republic,CAF,1950,169.3
+Central African Republic,CAF,1960,170.8
+Central African Republic,CAF,1970,169.9
+Chad,TCD,1870,169.8
+Chad,TCD,1880,169
+Chad,TCD,1890,169.6
+Chad,TCD,1900,165.8
+Chad,TCD,1920,169.4
+Chad,TCD,1930,170.6
+Chad,TCD,1950,173.7
+Chad,TCD,1960,174.3
+Chad,TCD,1970,173.8
+Chad,TCD,1980,173.3
+Comoros,COM,1950,166.8
+Comoros,COM,1960,167
+Comoros,COM,1970,167
+Congo,COG,1810,163.3
+Congo,COG,1850,167.6
+Congo,COG,1860,166
+Congo,COG,1920,165.4
+Congo,COG,1930,164.6
+Congo,COG,1940,166.9
+Congo,COG,1950,168.4
+Congo,COG,1960,169.4
+Congo,COG,1970,169
+Congo,COG,1980,168.4
+Democratic Republic of Congo,COD,1810,163.3
+Democratic Republic of Congo,COD,1870,165.7
+Democratic Republic of Congo,COD,1880,163.2
+Democratic Republic of Congo,COD,1890,162.6
+Democratic Republic of Congo,COD,1910,165.3
+Democratic Republic of Congo,COD,1920,163.1
+Democratic Republic of Congo,COD,1930,167.3
+Democratic Republic of Congo,COD,1950,168.5
+Democratic Republic of Congo,COD,1960,168.3
+Democratic Republic of Congo,COD,1970,169
+Democratic Republic of Congo,COD,1980,167.5
+Djibouti,DJI,1980,168.9
+Egypt,EGY,1850,166.4
+Egypt,EGY,1860,167.7
+Egypt,EGY,1870,166.9
+Egypt,EGY,1880,163
+Egypt,EGY,1900,166.2
+Egypt,EGY,1910,166.2
+Egypt,EGY,1920,165.1
+Egypt,EGY,1940,167.5
+Egypt,EGY,1950,170.1
+Egypt,EGY,1960,170.6
+Egypt,EGY,1970,171.2
+Egypt,EGY,1980,171.3
+Equatorial Guinea,GNQ,1930,169
+Eritrea,ERI,1860,166.3
+Eritrea,ERI,1880,165.3
+Eritrea,ERI,1930,164
+Eritrea,ERI,1950,156.7
+Eritrea,ERI,1960,155.8
+Eritrea,ERI,1970,156
+Ethiopia,ETH,1860,169.3
+Ethiopia,ETH,1880,167.5
+Ethiopia,ETH,1910,161.5
+Ethiopia,ETH,1920,166.6
+Ethiopia,ETH,1930,167.3
+Ethiopia,ETH,1940,168.5
+Ethiopia,ETH,1950,166.8
+Ethiopia,ETH,1960,167.5
+Ethiopia,ETH,1970,167.5
+Ethiopia,ETH,1980,167.3
+Gabon,GAB,1810,165.4
+Gabon,GAB,1910,164.9
+Gabon,GAB,1920,164.3
+Gabon,GAB,1950,171.2
+Gabon,GAB,1960,170.7
+Gabon,GAB,1970,170.5
+Gabon,GAB,1980,169.7
+Gambia,GMB,1920,166.6
+Ghana,GHA,1810,164.1
+Ghana,GHA,1860,167.8
+Ghana,GHA,1880,167.8
+Ghana,GHA,1890,164.2
+Ghana,GHA,1900,165.9
+Ghana,GHA,1910,167.1
+Ghana,GHA,1920,167.1
+Ghana,GHA,1930,167.7
+Ghana,GHA,1940,168.6
+Ghana,GHA,1950,169.5
+Ghana,GHA,1960,169.8
+Ghana,GHA,1970,169.9
+Ghana,GHA,1980,170
+Guinea,GIN,1870,169.9
+Guinea,GIN,1890,164.2
+Guinea,GIN,1900,168.4
+Guinea,GIN,1910,168.5
+Guinea,GIN,1920,168.6
+Guinea,GIN,1930,167.5
+Guinea,GIN,1950,168.7
+Guinea,GIN,1960,169.6
+Guinea,GIN,1970,169.7
+Guinea,GIN,1980,169.5
+Guinea-Bissau,GNB,1810,165.4
+Guinea-Bissau,GNB,1890,168.3
+Guinea-Bissau,GNB,1900,167.7
+Guinea-Bissau,GNB,1910,167.8
+Guinea-Bissau,GNB,1920,166.1
+Guinea-Bissau,GNB,1930,169.4
+Guinea-Bissau,GNB,1940,168.9
+Guinea-Bissau,GNB,1950,168.9
+Kenya,KEN,1880,164.5
+Kenya,KEN,1890,166
+Kenya,KEN,1900,166.7
+Kenya,KEN,1910,168.1
+Kenya,KEN,1920,167.7
+Kenya,KEN,1950,169.9
+Kenya,KEN,1960,170.7
+Kenya,KEN,1970,170.9
+Kenya,KEN,1980,171.2
+Lesotho,LSO,1900,168
+Lesotho,LSO,1950,168
+Lesotho,LSO,1960,168.3
+Lesotho,LSO,1970,168.5
+Lesotho,LSO,1980,167.4
+Liberia,LBR,1910,165.4
+Liberia,LBR,1920,167.6
+Liberia,LBR,1930,167.2
+Liberia,LBR,1950,167
+Liberia,LBR,1960,168.6
+Liberia,LBR,1970,168.5
+Liberia,LBR,1980,167.3
+Libya,LBY,1890,166.5
+Libya,LBY,1920,165.1
+Madagascar,MDG,1860,163.9
+Madagascar,MDG,1900,163.2
+Madagascar,MDG,1910,163.2
+Madagascar,MDG,1920,163.5
+Madagascar,MDG,1950,164.1
+Madagascar,MDG,1960,165
+Madagascar,MDG,1970,163.9
+Madagascar,MDG,1980,162.9
+Malawi,MWI,1870,166.7
+Malawi,MWI,1920,168.4
+Malawi,MWI,1930,165.6
+Malawi,MWI,1940,166.2
+Malawi,MWI,1950,166.6
+Malawi,MWI,1960,167.1
+Malawi,MWI,1970,166.7
+Malawi,MWI,1980,166.2
+Mali,MLI,1850,166.5
+Mali,MLI,1880,171
+Mali,MLI,1890,169.4
+Mali,MLI,1900,167.5
+Mali,MLI,1910,171.4
+Mali,MLI,1920,171.6
+Mali,MLI,1930,168.5
+Mali,MLI,1940,170.5
+Mali,MLI,1950,172.5
+Mali,MLI,1960,172.7
+Mali,MLI,1970,172.5
+Mali,MLI,1980,172.2
+Mauritania,MRT,1900,169
+Mauritania,MRT,1910,169.4
+Mauritania,MRT,1920,169.2
+Mauritania,MRT,1930,170.1
+Morocco,MAR,1880,168.6
+Morocco,MAR,1940,168.1
+Morocco,MAR,1950,169
+Morocco,MAR,1960,169.9
+Morocco,MAR,1970,170.2
+Morocco,MAR,1980,170.3
+Mozambique,MOZ,1810,164.1
+Mozambique,MOZ,1870,167.1
+Mozambique,MOZ,1900,169.6
+Mozambique,MOZ,1910,166.7
+Mozambique,MOZ,1920,168.6
+Mozambique,MOZ,1930,167.3
+Mozambique,MOZ,1950,166
+Mozambique,MOZ,1960,166.3
+Mozambique,MOZ,1970,165.5
+Mozambique,MOZ,1980,165.2
+Namibia,NAM,1900,166.7
+Namibia,NAM,1930,171.1
+Namibia,NAM,1940,172.3
+Namibia,NAM,1950,171.9
+Namibia,NAM,1960,172.1
+Namibia,NAM,1970,172.2
+Namibia,NAM,1980,171.3
+Niger,NER,1870,167.3
+Niger,NER,1880,173
+Niger,NER,1900,168.7
+Niger,NER,1910,171.6
+Niger,NER,1920,171.4
+Niger,NER,1930,172.7
+Niger,NER,1940,171.2
+Niger,NER,1950,170.9
+Niger,NER,1960,171.4
+Niger,NER,1970,171.4
+Niger,NER,1980,170.7
+Nigeria,NGA,1810,165.2
+Nigeria,NGA,1820,162.2
+Nigeria,NGA,1870,165.6
+Nigeria,NGA,1880,167.9
+Nigeria,NGA,1910,166.8
+Nigeria,NGA,1920,165.6
+Nigeria,NGA,1930,164.6
+Nigeria,NGA,1940,167.2
+Nigeria,NGA,1950,168.5
+Nigeria,NGA,1960,169.8
+Nigeria,NGA,1970,169.7
+Nigeria,NGA,1980,169.5
+Rwanda,RWA,1910,172
+Rwanda,RWA,1920,171.6
+Rwanda,RWA,1930,169.3
+Rwanda,RWA,1950,168.9
+Rwanda,RWA,1960,168.8
+Rwanda,RWA,1970,167.9
+Rwanda,RWA,1980,167.2
+Senegal,SEN,1810,165.4
+Senegal,SEN,1860,172.5
+Senegal,SEN,1870,168.2
+Senegal,SEN,1890,171.8
+Senegal,SEN,1900,170.4
+Senegal,SEN,1910,169.3
+Senegal,SEN,1920,171.6
+Senegal,SEN,1930,171.1
+Senegal,SEN,1940,171.9
+Senegal,SEN,1950,173.9
+Senegal,SEN,1960,174.1
+Senegal,SEN,1970,174.7
+Senegal,SEN,1980,174.3
+Sierra Leone,SLE,1810,164.7
+Sierra Leone,SLE,1820,162.2
+Sierra Leone,SLE,1890,165.5
+Sierra Leone,SLE,1910,165.8
+Sierra Leone,SLE,1920,167
+Sierra Leone,SLE,1930,165.5
+Sierra Leone,SLE,1970,167.4
+Sierra Leone,SLE,1980,165.8
+Somalia,SOM,1880,172.8
+Somalia,SOM,1890,171.4
+Somalia,SOM,1900,171.9
+Somalia,SOM,1910,171.1
+Somalia,SOM,1920,168.7
+Somalia,SOM,1930,172.9
+South Africa,ZAF,1890,170.4
+South Africa,ZAF,1900,169.9
+South Africa,ZAF,1910,169.7
+South Africa,ZAF,1920,169.2
+South Africa,ZAF,1930,170
+South Africa,ZAF,1940,168.2
+South Africa,ZAF,1950,170.1
+South Africa,ZAF,1960,169.5
+South Africa,ZAF,1970,168.9
+South Africa,ZAF,1980,168.1
+Sudan,SDN,1870,168
+Sudan,SDN,1880,169.9
+Sudan,SDN,1890,169.8
+Sudan,SDN,1900,167.9
+Sudan,SDN,1910,169
+Sudan,SDN,1920,171
+Sudan,SDN,1930,167.9
+Swaziland,SWZ,1930,168.8
+Swaziland,SWZ,1950,169.5
+Swaziland,SWZ,1960,169.9
+Swaziland,SWZ,1970,170.5
+Swaziland,SWZ,1980,170.2
+Tanzania,TZA,1870,167.8
+Tanzania,TZA,1880,168.5
+Tanzania,TZA,1890,167.7
+Tanzania,TZA,1910,165
+Tanzania,TZA,1920,165.8
+Tanzania,TZA,1930,166.6
+Tanzania,TZA,1940,165.6
+Tanzania,TZA,1950,166.2
+Tanzania,TZA,1960,167.2
+Tanzania,TZA,1970,167.8
+Tanzania,TZA,1980,166.9
+Togo,TGO,1860,165.3
+Togo,TGO,1900,167
+Togo,TGO,1920,168.4
+Togo,TGO,1950,170.8
+Togo,TGO,1960,170.6
+Togo,TGO,1970,170.5
+Togo,TGO,1980,167.7
+Tunisia,TUN,1910,162.9
+Tunisia,TUN,1970,165.3
+Uganda,UGA,1870,168.1
+Uganda,UGA,1880,166.3
+Uganda,UGA,1890,166.4
+Uganda,UGA,1910,166
+Uganda,UGA,1920,167.5
+Uganda,UGA,1930,164.9
+Uganda,UGA,1950,169.8
+Uganda,UGA,1960,170.1
+Uganda,UGA,1970,169.6
+Uganda,UGA,1980,169.3
+Zambia,ZMB,1940,168.1
+Zambia,ZMB,1950,169.6
+Zambia,ZMB,1960,169.7
+Zambia,ZMB,1970,168.9
+Zambia,ZMB,1980,168.2
+Zimbabwe,ZWE,1890,169
+Zimbabwe,ZWE,1900,167.6
+Zimbabwe,ZWE,1950,171
+Zimbabwe,ZWE,1960,171.1
+Zimbabwe,ZWE,1970,171.3
+Zimbabwe,ZWE,1980,171
